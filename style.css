@@ -1,0 +1,300 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: papyrus;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    padding-top: 120px;
+    background-image: url('images/Background1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.body-breakfast{
+    padding-top:120px;
+    background-image: url('images/Background4.jpg');
+    background-position:center;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.body-breakfast-four{
+    padding-top:120px;
+    background-image: url('images/Background4.jpg');
+    background-position:center;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.body-breakfast-two{
+    padding-top:120px;
+    background-image: url('images/Background3.jpg');
+    background-position:center;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.body-breakfast-three{
+    padding-top:120px;
+    background-image: url('images/Background%20salad-.jpg');
+    background-position:center;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.body-breakfast-six{
+    padding-top:120px;
+    background-image: url('images/Background%20desserts.jpg');
+    background-position:center;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.body-breakfast-details{
+    padding-top:120px;
+    background-image: url('images/Background5.jpg');
+    background-position:center;
+    background-attachment: scroll;
+    background-repeat:repeat-y;
+    background-size: cover;
+}
+/*============ HEADER ============*/
+
+.header{
+    background-image: url(images/Logo.jpg);
+    width: 100%;
+    height: 100px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: skyblue;
+}
+
+.header img{
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+    left: 0;
+    margin-top: 0px;
+}
+
+/*==== HOME PAGE MENU=====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color:goldenrod;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid goldenrod;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.meals-list-items-twin{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color:goldenrod;
+    font-size: 18px;
+    font-weight: bold;
+    border: 5px solid goldenrod;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.home-menu-item p{
+    text-align:center;
+    font-size: 20px;
+    font-family: curlz mt;
+}
+
+.home-menu-item h3{
+    font-weight: bold;
+    font-size: 35px;
+    color: goldenrod;
+    padding-left: 10px;
+    font-family: papyrus;
+}
+
+/*============ MEALS PAGE ============*/
+
+#meals{
+    padding-top: 50px;
+}
+
+/*==== MEALS PAGE MENU=====*/
+
+.meals-list a{
+    text-decoration: none;
+    
+}
+
+.meals-list-items {
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.meals-list-items h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    padding-left: 10px;
+}
+
+.meals-list-items i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.home-menu-item-edit-two p{
+    text-align:center;
+    font-size: 30px;
+    font-family: curlz mt;
+}
+
+.home-menu-item-edit h2{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.home-menu-item-edit-two{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*==== RECIPE PAGE MENU=====*/
+
+.muesli-image img{
+    width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.recipe-details-info p{
+    font-size: 15px;
+    display: inline-block;
+}
+
+.home-menu-item-edit-two label{
+    line-height: 25px;
+    margin-left: 10px;
+    font-family: curlz mt;
+}
+
+
+/*==== okusha=====*/
+
+h3{
+    color: black;
+    font-family: papyrus;
+}
+input{
+    color: black;
+    background-color: #ffffff;
+    font-family: cursive;
+    font-size: 20px;
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+
+.recipe-details-steps{
+    padding-top: 20px;
+}
+
+.recipe-details-steps ol{
+    padding-left: 28px;
+}
+.home-menu-items-edit-two-one p{
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 0px;
+}
+.home-menu-items-edit-two-one h3{
+    font-size: 40px;
+    margin-bottom: 1px;
+}
